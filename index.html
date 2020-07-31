@@ -1,23 +1,22 @@
 <!DOCTYPE html>
 <html lang="en-us">
-  <head>
+<head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | Navegantes</title>
-  </head>
-  <body style="text-align: center">
-    <canvas id="unity-canvas" style="width: 1360px; height: 768px; background: #231F20"></canvas>
-    <script src="Build/View.loader.js"></script>
+    <title>Navegantes</title>
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="stylesheet" href="TemplateData/style.css">
+    <script src="TemplateData/UnityProgress.javascript"></script>
+    <script src="Build/UnityLoader.js"></script>
     <script>
-      createUnityInstance(document.querySelector("#unity-canvas"), {
-        dataUrl: "Build/View.data",
-        frameworkUrl: "Build/View.framework.js",
-        codeUrl: "Build/View.wasm",
-        streamingAssetsUrl: "StreamingAssets",
-        companyName: "OQ2",
-        productName: "Navegantes",
-        productVersion: "0.1",
-      });
+        var gameInstance = UnityLoader.instantiate("gameContainer", "Build/tt.json", {onProgress: UnityProgress});
     </script>
-  </body>
+</head>
+<body>
+<div class="webgl-content">
+    <div id="gameContainer" style="width: 1360px; height: 768px"></div>
+</div>
+<div class="simmer">template by: <a href="https://simmer.io" target="_blank">SIMMER.io</a></div>
+<script src="TemplateData/responsive.javascript"></script>
+</body>
 </html>
