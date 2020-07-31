@@ -1,22 +1,25 @@
 <!DOCTYPE html>
 <html lang="en-us">
-<head>
+  <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Navegantes</title>
+    <title>Unity WebGL Player | Navegantes</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
-    <script src="TemplateData/UnityProgress.javascript"></script>
-    <script src="Build/UnityLoader.js"></script>
+    <script src="TemplateData/UnityProgress.js"></script>
+    <script src="Build/3544178c924aac8c5129f2d974d60dd7.js"></script>
     <script>
-        var gameInstance = UnityLoader.instantiate("gameContainer", "Build/tt.json", {onProgress: UnityProgress});
+      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/4044de78f1b974c2ea338407f0e996fe.json", {onProgress: UnityProgress});
     </script>
-</head>
-<body>
-<div class="webgl-content">
-    <div id="gameContainer" style="width: 1360px; height: 768px"></div>
-</div>
-<div class="simmer">template by: <a href="https://simmer.io" target="_blank">SIMMER.io</a></div>
-<script src="TemplateData/responsive.javascript"></script>
-</body>
+  </head>
+  <body>
+    <div class="webgl-content">
+      <div id="gameContainer" style="width: 1360px; height: 768px"></div>
+      <div class="footer">
+        <div class="webgl-logo"></div>
+        <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
+        <div class="title">Navegantes</div>
+      </div>
+    </div>
+  </body>
 </html>

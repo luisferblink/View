@@ -1,0 +1,13 @@
+{
+"companyName": "OQ2",
+"productName": "Navegantes",
+"dataUrl": "5e5b3c2330eb7b9eea31e02ab3b43aa4.unityweb",
+"wasmCodeUrl": "faf7537fa2ec2f713f4d01792051e613.unityweb",
+"wasmFrameworkUrl": "1e640828a21a1ad0ad81da6ca2ce8f7f.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20",
+"cacheControl": {"default": "must-revalidate"}
+}
