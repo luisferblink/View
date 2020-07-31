@@ -1,0 +1,19 @@
+{
+"companyName": "OQ2",
+"productName": "Navegantes",
+"productVersion": "0.1",
+"dataUrl": "mel.data.unityweb",
+"wasmCodeUrl": "mel.wasm.code.unityweb",
+"wasmFrameworkUrl": "mel.wasm.framework.unityweb",
+"asmCodeUrl": "mel.asm.code.unityweb",
+"asmMemoryUrl": "mel.asm.memory.unityweb",
+"asmFrameworkUrl": "mel.asm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20",
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.2.7f2"
+}
